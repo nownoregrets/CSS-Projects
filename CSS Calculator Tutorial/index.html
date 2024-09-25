@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Calculator - My First Calculator</title>
+</head>
+
+<body>
+    <div id="mainBody">
+        <div id="calculatorBody">
+            <h2 id="topHeading">&copy; Now No Regrets</h2>
+            <div id="calculatorInput">
+                <input type="text" id="CalculatorScreen" placeholder="Calculate Me!">
+            </div>
+
+            <div id="calculatorButtons">
+                <div id="column1">
+                    <div class="row1 buttonStyle displayFlex" id="all-clear">AC</div>
+                    <div class="row2 buttonStyle displayFlex number">7</div>
+                    <div class="row3 buttonStyle displayFlex number">4</div>
+                    <div class="row4 buttonStyle displayFlex number">1</div>
+                    <!-- <div class="row5 buttonStyle">-</div> -->
+                </div>
+                <div id="column2">
+                    <div class="row1 buttonStyle displayFlex" onclick="deleteLast()"><i
+                            class="material-icons">delete</i></div>
+                    <div class="row2 buttonStyle displayFlex number">8</div>
+                    <div class="row3 buttonStyle displayFlex number">5</div>
+                    <div class="row4 buttonStyle displayFlex number">2</div>
+                    <!-- <div class="row5 buttonStyle">4</div> -->
+                </div>
+                <div id="column3">
+                    <div class="row1 buttonStyle displayFlex number">/</div>
+                    <div class="row2 buttonStyle displayFlex number">9</div>
+                    <div class="row3 buttonStyle displayFlex number">6</div>
+                    <div class="row4 buttonStyle displayFlex number">3</div>
+                    <!-- <div class="row5 buttonStyle">5</div> -->
+                </div>
+                <div id="column4">
+                    <div class="row1 buttonStyle displayFlex colororagne number">*</div>
+                    <div class="row2 buttonStyle displayFlex colororagne number">-</div>
+                    <div class="row3 buttonStyle displayFlex colororagne number">+</div>
+                    <div class="row4 buttonStyle displayFlex displayHide">b</div>
+                    <!-- <div class="row5 buttonStyle">6</div> -->
+                </div>
+            </div>
+            <div id="buttonBar">
+                <div id="btRow">
+                    <div class="bt1 btrowstyle displayFlex number" id="buttonZero">0</div>
+                    <div class="bt2 btrowstyle displayFlex displayHide">b</div>
+                    <div class="bt3 btrowstyle displayFlex centre number">.</div>
+                    <div class="bt4 btrowstyle displayFlex colororagne" id="buttonEqual" onclick="calculateValue()">=
+                    </div>
+                    <!-- <div class="row4 buttonStyle">*</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>

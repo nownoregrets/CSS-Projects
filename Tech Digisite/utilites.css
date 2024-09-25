@@ -1,0 +1,60 @@
+.all-space-even {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.3vh 1.8vw;
+    font-size: 1.5em;
+    border: none;
+    border-radius: .5vw;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: .3s linear;
+}
+
+.font-1 {
+    font-size: 1.7em;
+}
+
+.font-2 {
+    font-size: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-1 {
+    padding: 1%;
+}
+
+.padding-2 {
+    padding: 2%;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+}

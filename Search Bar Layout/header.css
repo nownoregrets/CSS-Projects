@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1C1018;
+    color: #D4C5E2;
+    height: 21vh;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    padding:2vh ;
+    font-size: 1.5vw;
+}
+#top a{
+        text-decoration: none;
+        color: #D4C5E2;
+}
+#useraccount{
+    border-radius: 2vw;
+    /* color: #D4C5E2; */
+    font-size: 1.15vw;
+}
+nav{
+    background-color: #133C55;
+    height: 10vh;
+    margin-top: 3.5vh;
+}
+.list{
+    list-style-type: none;
+    color:#D4C5E2;
+    text-decoration: none;
+   
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+    font-size: 1.5vw;
+}

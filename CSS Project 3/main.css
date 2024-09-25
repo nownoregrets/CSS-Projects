@@ -1,0 +1,57 @@
+section {
+    background-image: url(Nature.jpg);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 75vh;
+    background-position: center;
+}
+
+#btcn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: 80vh;
+
+}
+
+p {
+    color: #FFDC5E;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: 'Dancing Script', cursive;
+}
+
+#b1 {
+    background-color: #496DDB;
+    color: #FFDC5E;
+    border: none;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 1vw;
+    font-family: 'Dancing Script', cursive;
+}
+
+#b2 {
+    background-color: #FF5E5B;
+    color: #D5C9DF;
+    border: none;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 1vw;
+    font-family: 'Dancing Script', cursive;
+}
+
+#bt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vw;
+    margin-top: 2vh;
+
+
+}

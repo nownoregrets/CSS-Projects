@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Basic Calculator*/
+#mainBody {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculatorBody {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    height: 30vw;
+    background-color: rgb(29, 29, 29);
+    border-radius: 1vw;
+}
+
+#calculatorButtons {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonBar {
+    display: flex;
+}
+
+#btRow {
+    display: flex;
+}
+
+.buttonStyle {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    /* color: rgb(218, 218, 218); */
+    width: 3vw;
+    height: 5.5vh;
+    margin: 0.7vw;
+    text-align: center;
+    font-size: 1.7vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+}
+
+#resultScreen {
+    width: 16.9vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(218, 218, 218);
+    text-align: left;
+    border-radius: 0.7vw 0.7vw 0vw 0vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#inputScreen {
+    width: 16.9vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(218, 218, 218);
+    text-align: right;
+    border-radius: 0vw 0vw 0.7vw 0.7vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#column3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#column4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#btColumn1 {
+    display: flex;
+}
+
+.displayFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btrowstyle {
+    background-color: rgb(77, 77, 77);
+    color: rgb(218, 218, 218);
+    width: 3vw;
+    height: 5.5vh;
+    margin: 0.7vw;
+    margin-left: 0.6vw;
+    text-align: center;
+    font-size: 1.7vw;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonZero {
+    width: 7.4vw;
+}
+
+.displayHide {
+    display: none;
+}
+
+#buttonEqual {
+    font-size: 1.7vw;
+    width: 3vw;
+    height: 14.2vh;
+    margin-top: -7vh;
+    border-radius: 0.5vw;
+}
+
+.colororagne {
+    background-color: rgb(255, 102, 0);
+    border-radius: 0.5vw;
+}

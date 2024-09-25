@@ -1,0 +1,17 @@
+footer {
+    background-color: #FFDC5E;
+    height: 10vh
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #496DDB;
+    color: #FFDC5E;
+    height: 7vh;
+    position: relative;
+    top: 3vh;
+font-size: 2vw;
+font-family: 'Dancing Script', cursive
+}
+   

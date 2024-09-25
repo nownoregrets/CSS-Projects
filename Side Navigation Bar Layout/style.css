@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header CSS*/
+header {
+    height: 15vh;
+    background-color: #121113;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topHeadingClick {
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+#topHeadingClick:hover {
+    color: #899878;
+}
+
+/*Header CSS Ends*/
+/*Side Bar CSS*/
+#sideBar {
+    width: 20vw;
+    height: 70vh;
+    /* background-color: black; */
+}
+
+/*Search Bar CSS*/
+#searchbarBox {
+    width: 20vw;
+    height: 15vh;
+    background-color: #899878;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#searchBar {
+    border-radius: 0.5vw;
+    background-color: #899878;
+    border: 0.2vw solid #F7F7F2;
+    height: 2.5vh;
+    color: #F7F7F2;
+    width: 15vw;
+}
+
+#searchBar::placeholder {
+    color: #F7F7F2;
+    text-align: center;
+}
+
+#searchButton {
+    background-color: #899878;
+    /* border: 0.2vw solid #F7F7F2; */
+    width: 3.1vw;
+    border-radius: 0.5vw;
+    border: none;
+    height: 3.4vh;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #121113;
+    color: #899878;
+}
+
+#searchIcon {
+    color: #F7F7F2;
+    font-size: medium;
+}
+
+.searchhover:hover {
+    background-color: #121113;
+    color: #899878;
+}
+
+#searchIcon:hover {
+    color: #899878;
+}
+
+/*Search Bar Ends*/
+/*Navigation Box CSS*/
+
+nav {
+    background-color: #222725;
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+}
+
+.list {
+    text-decoration: none;
+    color: #F7F7F2;
+    list-style-type: none;
+    font-size: 2vw;
+    margin-top: 4vh;
+    margin-left: 1vw;
+    ;
+}
+
+.list:hover {
+    color: #899878;
+}
+
+/*Navigation Box Ends*/
+/*Buttons Box CSS*/
+#buttonBox {
+    width: 20vw;
+    height: 15vh;
+    background-color: #899878;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 0.5vw;
+    background-color: #899878;
+    /* border: 0.2vw solid #F7F7F2; */
+    border: none;
+    color: #F7F7F2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonIcons {
+    font-size: 1.5vw;
+}
+
+.buttonhover:hover {
+    background-color: #121113;
+    color: #899878;
+}
+
+/*Buttons Box Ends*/
+/*Side Bar Ends*/
+/*Main Section CSS*/
+main {
+    display: flex;
+}
+
+#maincontent {
+    width: 80vw;
+    height: 70vh;
+    background-color: #896978;
+    text-align: center;
+    color: #121113;
+}
+
+/*Main Section Ends*/
+/*FooterCSS*/
+footer {
+    height: 15vh;
+    background-color: #121113;
+    color: #F7F7F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*bottomHeading CSS*/
+#bottomHeading {
+    font-size: 2vw;
+}
+
+/*bottomHeading Ends*/
+/*Footeer Ends*/

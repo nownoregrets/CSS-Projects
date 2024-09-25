@@ -1,0 +1,8 @@
+Background Color: #121113  /*Header-Footer*/
+Text Color: #F7F7F2
+Text Hover Color: #899878
+Search Bar Placeholder Color: #F7F7F2
+Background Color: #899878  /*Search Bar - Buttons Bar*/
+Background Color: #222725  /*Navigation Bar*/
+Background Color: #896978 /*Main*/
+Main Text Color:#121113

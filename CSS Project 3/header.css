@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#topname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #496DDB;
+    color: #FFDC5E;
+    height: 10vh;
+    font-size: 2vw;
+    font-family: 'Dancing Script', cursive
+}
+#nnr a{
+    text-decoration: none;
+    color:#551A8B;
+}
+#nnr{
+    width: 30vw;
+}
+
+#nb{
+  width: 40vw;
+
+}
+.list{
+    text-decoration: none;
+    list-style-type: none;
+    color: #551A8B;
+   
+}
+ul{
+       display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+#schbr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #FFDC5E;
+    height: 5vh;
+    font-size: 1.5vw;
+    font-family: 'Dancing Script', cursive;
+}
+#schbox{
+    border-radius: 2vw;
+    border: none;
+    width: 15vw;
+    /* background-color:#FFDC5E ; */
+    color: #551A8B;
+    height: 4vh;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.02vw;
+    
+}
+#schbt{
+    /* background-color:#FFDC5E; */
+    border-radius: 2vw;
+    border: none;
+    width: 5vw;
+    height: 4vh;
+    text-align: center;
+    color:#551A8B;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.02vw;
+}
